@@ -28,6 +28,12 @@ $ source venv/bin/activate
 
 ### Configurando aplicação
 
+Configuração environment:
+
+```
+$ cp .env_example .env
+```
+
 Instalando pacotes:
 
 ```
