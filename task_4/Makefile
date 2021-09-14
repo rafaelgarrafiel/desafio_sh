@@ -16,9 +16,10 @@ install:
 
 
 init_db:
-	FLASK_APP=projeto/app.py flask db init
-	FLASK_APP=projeto/app.py flask create-db
+	#FLASK_APP=projeto/app.py flask db init
+	#FLASK_APP=projeto/app.py flask create-db
 	FLASK_APP=projeto/app.py flask db upgrade
+	FLASK_APP=projeto/app.py flask populate-db
 
 routes:
 	FLASK_APP=projeto/app.py flask routes
