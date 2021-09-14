@@ -1,0 +1,3 @@
+Considerando a necessidade de normalizar diferentes interfaces de acesso a recursos, eu utilizaria o padrão Facade,
+Cada interface possui diferentes níveis de complexidades, a aplicação desse padrão auxiliaria a redução desse nível
+de complexidade.
