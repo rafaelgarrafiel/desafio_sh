@@ -1,0 +1,4 @@
+Analisando o log apresentado, verifica-se que o parâmetro 'WALLET_X_TOKEN_MAX_AGE', não está setado.
+Conforme informado pela equipe, o erro não acontece nos ambientes de local/desenvolvimento, sendo assim:
+-> Caso a variável esteja setada em um arquivo físico, deve-se verificar sua integridade.
+-> Caso a variável esteja setada em variáveis de ambiente, deve-se verificar o procedimento de deploy.

@@ -1,0 +1,19 @@
+[default]
+DEBUG = false
+EXTENSIONS = [
+    "projeto.conf.database:init_app"
+]
+
+[development]
+DEBUG = true
+SQLALCHEMY_DATABASE_URI = "sqlite:///development.db"
+EXTENSIONS = [
+    "projeto.conf.database:init_app",
+    "projeto.conf.cli:init_app",
+    "projeto.api.routes:init_app"
+]
+
+[test]
+DEBUG = true
+[production]
+SQLALCHEMY_TRACK_MODIFICATIONS = false
